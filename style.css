@@ -1,0 +1,182 @@
+/* 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+.container {
+    display: flex;
+    /* align-items: center; */
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background: #FFF;
+    
+}
+
+.left-img {
+    height: 100%;
+}
+
+.image {
+    width: 555px;
+    height: 600px;
+    border-radius: 0px 20px 20px 0px;
+    background:  lightgray 50% / cover no-repeat;
+}
+
+.right-section {
+    width: 600px;
+    height: 832px;
+
+}
+
+.title {
+    display: flex;
+    align-items: center;
+
+    width: 345px;
+    height: 95px;
+    flex-shrink: 0;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.hello {
+    color: #7A999C;
+    font-family: Istok Web;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/* .hello::after{
+    content: "";
+    width: 350px;
+    height: 3px;
+    color: #4B687A;
+    display: block;
+    background: #5f7c8d;
+} */
+
+.title-2 {
+    color: #5F7C8D;
+    padding-left: 20px;
+    font-family: Istok Web;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.login {
+    padding-right: 38px;
+    display: flex;
+    width: 103px;
+    color: #5F7C8D;
+    font-family: Istok Web;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.SignUp {
+    width: 133px;
+    color: rgba(95, 124, 141, 0.39);
+    font-family: Istok Web;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.login-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 38px;
+}
+
+.registratsiya{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.email {
+    text-align: start;
+    border: none;
+   
+    color: rgba(95, 124, 141, 0.55);
+    font-family: Istok Web;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  
+}
+.email:hover{
+    border: none;
+  
+}
+.email:active{
+    border: none;
+}
+.after{
+    content: "";
+    width: 350px;
+    height: 3px;
+    color: #4B687A;
+    display: block;
+    background: #5f7c8d;
+}
+
+.password {
+    border: none;
+    color: rgba(95, 124, 141, 0.55);
+    font-family: Istok Web;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 50px;
+}
+.button-all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.button {
+    color: #fff;
+    width: 432px;
+    height: 53px;
+    flex-shrink: 0;
+    background: #4B687A;
+    border: none;
+}
+
+.or {
+    color: rgba(95, 124, 141, 0.55);
+    font-family: Istok Web;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.google {
+    margin-right: 50px;
+}
+
